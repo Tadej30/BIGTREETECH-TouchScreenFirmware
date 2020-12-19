@@ -45,7 +45,7 @@ void infoSettingsReset(void)
   infoSettings.serial_alwaysOn        = SERIAL_ALWAYS_ON;
   infoSettings.marlin_mode_bg_color   = lcd_colors[MARLIN_BKCOLOR];
   infoSettings.marlin_mode_font_color = lcd_colors[MARLIN_FNCOLOR];
-  //infoSettings.marlin_mode_showtitle  = MARLIN_SHOW_BANNER;
+  infoSettings.marlin_mode_showtitle  = ST7920_SHOW_BANNER;
   infoSettings.marlin_mode_fullscreen = DEFAULT_ST7920_FULLSCREEN_MODE;
   infoSettings.marlin_type            = LCD12864;
 
