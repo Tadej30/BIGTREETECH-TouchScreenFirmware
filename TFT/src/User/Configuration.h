@@ -73,7 +73,7 @@
 /**
  * Text displayed at the top of the TFT in Marlin Mode.
  */
-#define MARLIN_BANNER_TEXT "    PRUSA  MK3/s    "
+#define MARLIN_BANNER_TEXT "P R U S A     M K 3 / s"
 
 /**
  * show banner text at the top of the TFT in Marlin Mode.
@@ -97,7 +97,7 @@
  *
  * Options:  0: Disabled    1: Enabled
  */
-#define SERIAL_ALWAYS_ON 1  // Default: 0 (Disabled)
+#define SERIAL_ALWAYS_ON 0  // Default: 0 (Disabled)
 
 //===========================================================================
 //========================== Touch Mode Settings ============================
@@ -240,8 +240,8 @@
 // Specify a pause position as { X, Y, Z_raise }
 #define NOZZLE_PAUSE_RETRACT_LENGTH 2   // (mm)
 #define NOZZLE_RESUME_PURGE_LENGTH  20   // (mm)
-#define NOZZLE_PAUSE_X_POSITION     (X_MAX_POS - 0)  // (mm) Must be an integer
-#define NOZZLE_PAUSE_Y_POSITION     (Y_MIN_POS + 10)  // (mm) Must be an integer
+#define NOZZLE_PAUSE_X_POSITION     (X_MAX_POS - 5)  // (mm) Must be an integer
+#define NOZZLE_PAUSE_Y_POSITION     (Y_MIN_POS + 0)  // (mm) Must be an integer
 #define NOZZLE_PAUSE_Z_RAISE        20   // (mm)
 #define NOZZLE_PAUSE_E_FEEDRATE     3000 // (mm/min) retract & purge feedrate
 #define NOZZLE_PAUSE_XY_FEEDRATE    6000 // (mm/min) X and Y axes feedrate
