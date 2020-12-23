@@ -150,7 +150,7 @@
  * Toast notification duration (in ms)
  * Set the duration for displaying toast notification on top of the screen
  */
-#define TOAST_DURATION 3000
+#define TOAST_DURATION 5000
 
 /**
  * Notification style for ACK messages
@@ -429,7 +429,7 @@
 
 // Smart filament runout detection
 // For use with an encoder disc that toggles runout pin as filament moves
-#define FILAMENT_RUNOUT_DISTANCE_MM 2
+#define FILAMENT_RUNOUT_DISTANCE_MM 7
 
 // Enable alternative Move Menu Buttons Layout matching the direction of actual printer axis.
 // update the icons from alternate icon folder
